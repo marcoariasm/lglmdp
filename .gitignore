@@ -43,3 +43,5 @@ next-env.d.ts
 # others
 id_rsa
 id_rsa.pub
+
+*.zips
