@@ -111,7 +111,7 @@ const Index = () => {
             <h6>{copy.about.eyebrow}</h6>
             <h4>{copy.about.title}</h4>
           </div>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {copy.about.cards.map((card) => (
               <div key={card.title} data-aos="fade-up" data-aos-duration="1000">
                 <div className="group rounded-3xl border-2 border-white bg-white p-6 transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.04] dark:to-transparent dark:!shadow-none dark:hover:bg-secondary">
