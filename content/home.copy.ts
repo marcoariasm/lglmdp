@@ -58,7 +58,7 @@ export const homeCopy = {
         alt: 'salud-mental-ocupacional',
       },
       {
-        title: 'Seguridad y Salud en el Trabajo',
+        title: 'Gestión integral SST para instituciones de salud',
         text:
           'Gestión de riesgos ocupacionales. Implementación del SGSST. Vigilancia de la salud. Capacitaciones especializadas. Auditorías y cumplimiento normativo.',
         image: '/assets/images/lider.png',
