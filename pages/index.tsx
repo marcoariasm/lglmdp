@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import { useRef } from 'react';
 
 import Modal from '../components/Modal';
@@ -307,6 +309,30 @@ const Index = () => {
           />
         </div>
       </section>
+      <div className="fixed bottom-5 left-5 z-10">
+        <div className="bottom-5 z-10 mb-2 block bg-white p-1">
+          <span className="text-xs leading-4">
+            <p>¿Tienes dudas?</p>
+            <p>
+              <strong>¡Escríbenos!</strong>
+            </p>
+          </span>
+        </div>
+        <Link
+          href="https://api.whatsapp.com/send?phone=51973799019&text=Hola%2C%20quisiera%20mas%20informacion"
+          target="_blank"
+          id="message-whatsapp"
+        >
+          <div className="duration-50 group flex h-14 w-14 items-center justify-center transition">
+            <Image
+              src="/assets/images/whatsapp-button.png"
+              alt="whatsapp"
+              width={60}
+              height={60}
+            />
+          </div>
+        </Link>
+      </div>
     </>
   );
 };
