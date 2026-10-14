@@ -1,7 +1,7 @@
-import { useRef } from "react";
+import { useRef } from 'react';
 
-import Modal from "../components/Modal";
-import { homeCopy } from "./home.copy";
+import Modal from '../components/Modal';
+import { homeCopy } from '../content/home.copy';
 
 const Index = () => {
   const dialog = useRef<any>();
