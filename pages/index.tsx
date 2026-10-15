@@ -12,16 +12,29 @@ const Index = () => {
   return (
     <>
       {/* Portada */}
-      <section className="mt-[82px] bg-[url(/assets/images/bg-legalmed.jpg)] bg-cover bg-center bg-no-repeat text-white lg:mt-[106px]">
+      <section className="mt-[82px] bg-[url(/assets/images/portada-legalmed.jpg)] bg-cover bg-center bg-no-repeat text-white lg:mt-[106px]">
         <div className="container min-h-[440px] lg:min-h-[800px]">
           <div className="flex flex-col gap-7 pt-24 md:flex-row md:gap-0">
             <div className="space-y-5 pb-10 pt-24 text-center ltr:md:text-left rtl:md:text-right">
-              <h5 className="text-xl font-bold">{copy.hero.eyebrow}</h5>
-              <h2 className="text-4xl font-black uppercase sm:text-6xl sm:leading-tight">
+              <h5
+                className="text-xl font-bold"
+                style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5);" }}
+              >
+                {copy.hero.eyebrow}
+              </h5>
+              <h2
+                className="text-shadow-sm text-4xl font-black uppercase sm:text-6xl sm:leading-tight"
+                style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5);" }}
+              >
                 <span className="text-secondary">{copy.hero.titlePrefix}</span>{" "}
                 {copy.hero.titleSuffix}
               </h2>
-              <p className="text-xl font-semibold">{copy.hero.description}</p>
+              <p
+                className="text-xl font-semibold"
+                style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5);" }}
+              >
+                {copy.hero.description}
+              </p>
               <a
                 href={copy.hero.cta.href}
                 className="btn rounded-md bg-white"
@@ -36,7 +49,7 @@ const Index = () => {
       </section>
 
       {/* Por qué es importante */}
-      <section className="pb-16 sm:px-6 sm:py-10">
+      <section className="pb-16 sm:px-6 sm:py-8">
         <div className="mx-auto max-w-[1440px] bg-black py-12 dark:bg-gray-dark sm:rounded-[32px] lg:py-24">
           <div className="container">
             <div className="flex flex-col items-center gap-6 lg:flex-row">
@@ -105,7 +118,7 @@ const Index = () => {
 
       {/* Quienes somos */}
       <section
-        className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-12 dark:bg-none lg:py-[70px]"
+        className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-8 dark:bg-none lg:py-[70px]"
         id="about-us"
       >
         <div className="container">
@@ -134,7 +147,7 @@ const Index = () => {
       </section>
 
       {/* Servicios */}
-      <section className="py-14 dark:!bg-none lg:py-[100px]" id="services">
+      <section className="py-9 dark:!bg-none lg:py-[100px]" id="services">
         <div className="container">
           <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
             <h6>{copy.services.eyebrow}</h6>
@@ -167,7 +180,7 @@ const Index = () => {
 
       {/* Impacto */}
       <section
-        className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]"
+        className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-9 dark:bg-black/50 lg:py-[100px]"
         id="team"
       >
         <div className="container">
@@ -199,7 +212,7 @@ const Index = () => {
       </section>
 
       {/* Noticias */}
-      <section className="py-12 lg:py-24" id="news">
+      <section className="py-8 lg:py-10" id="news">
         <div className="container">
           <div className="flex items-center gap-3">
             <div className="h-[30px] w-[5px] bg-secondary" />
@@ -246,7 +259,7 @@ const Index = () => {
       </section>
 
       {/* Contacto */}
-      <section className="pb-14 lg:py-[60px]" id="contact">
+      <section className="pb-9 lg:py-[60px]" id="contact">
         <div className="container">
           <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
             <h4 className="sm:!leading-[50px]">{copy.contact.title}</h4>

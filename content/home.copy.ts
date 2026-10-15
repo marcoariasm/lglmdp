@@ -4,7 +4,7 @@ export const homeCopy = {
     titlePrefix: 'Tu tranquilidad legal',
     titleSuffix: 'es nuestra especialidad',
     description:
-      'En LegalMed somos especialistas en salud legal. Asesoramos, prevenimos y defendemos a médicos, directorres medicos, odontólogos, profesionales de la salud, clínicas e instituciones sanitarias frente a sus desafíos legales y regulatorios.',
+      'En LegalMed somos especialistas en salud legal. Asesoramos, prevenimos y defendemos a médicos, directores medicos, odontólogos, profesionales de la salud, clínicas e instituciones sanitarias frente a sus desafíos legales y regulatorios.',
     cta: {
       label: 'Solicitar evaluación legal',
       href: '#',

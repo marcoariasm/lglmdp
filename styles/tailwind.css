@@ -13,9 +13,9 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
-    hyphens: auto;
-    word-break: break-word;
-    text-align: justify;
+    hyphens: none;
+    word-break: break;
+    text-align: left;
 }
 
 @layer components {
